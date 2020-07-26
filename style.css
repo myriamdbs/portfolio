@@ -1,0 +1,36 @@
+body {
+  margin: 0;
+}
+
+.intro {
+  background-size: cover;
+  height : 500px;
+  width: 100vw;
+  margin-top: 0px;
+  background-position: center;
+  display: flex;
+  justify-content: flex-end;
+  color: white;
+}
+
+.intro h1 {
+  font-size: 67px;
+  font-weight: bold;
+  margin-top: 20px;
+  margin-bottom: 25px;
+}
+.intro h4 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.intro-container {
+  padding: 20px 60px;
+  margin: 100px 30px;
+  text-align: center;
+  background-color: #D67369;
+  background-size: 300px 200px;
+  border-radius: 2px;
+  box-shadow: 0px 6px 16px rgba(0,0,0,0.3), 0px 1px 8px rgba(214, 115, 105, 0.3);
+}
