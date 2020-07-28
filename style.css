@@ -1,15 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;600;700&family=Rubik:wght@300;400;500;700&display=swap');
+
+/*font-family: 'Baloo 2', cursive;
+font-family: 'Rubik', sans-serif;*/
+
+
 body {
   margin: 0;
+  font-family: 'Rubik';
+}
+
+h2 {
+  font-family: 'Baloo 2';
+  font-weight: bold;
+  font-size: 48px;
 }
 
 .intro {
+  background-image:url(images/banner3.jpg);
   background-size: cover;
-  height : 500px;
+  height : 100vh;
   width: 100vw;
   margin-top: 0px;
   background-position: center;
   display: flex;
-  justify-content: flex-end;
+  justify-content: flex-start;
   color: white;
 }
 
@@ -18,19 +32,25 @@ body {
   font-weight: bold;
   margin-top: 20px;
   margin-bottom: 25px;
+  font-family: 'Baloo 2';
 }
 .intro h4 {
   font-size: 24px;
   font-weight: bold;
   margin-top: 20px;
+  font-family: 'Baloo 2';
 }
 
 .intro-container {
   padding: 20px 60px;
-  margin: 100px 30px;
+  margin: 210px 70px;*/
   text-align: center;
   background-color: #D67369;
-  background-size: 300px 200px;
-  border-radius: 2px;
+  opacity: 0.9;
+  border-radius: 3px;
   box-shadow: 0px 6px 16px rgba(0,0,0,0.3), 0px 1px 8px rgba(214, 115, 105, 0.3);
+}
+
+.career-path {
+  line-height: 1.8;
 }
